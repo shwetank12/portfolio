@@ -108,7 +108,7 @@ section #test2 {
 }
 
 section #test2 img{
-    width: 500px;
+    width: 450px;
     height:300px;
 
 
@@ -164,8 +164,10 @@ container img{
 }
 
 #skills{
-    background-color: chartreuse;
-    height: 500px;
+    
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 #skills h1{
@@ -193,19 +195,25 @@ container img{
 
 @media screen and (max-width:1024px) {
     section {
-        display:flex;
+    display:flex;
     font-family: 'Poppins', sans-serif;
     font-size: 2.3rem;
-    columns: 2;
+    flex-direction:column;
     padding:20px;
     margin-top: 50px;
     justify-content: space-between;
-        flex-direction: column;
+    flex-direction: column;
     }
     section #test2 img{
-        width: 250px;
+        width:100%;
         height:50%; 
     } 
+    section #test1 h1{
+    
+         font-size: 2.5rem;
+    }
+
+
      
     
   }
