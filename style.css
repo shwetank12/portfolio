@@ -24,12 +24,18 @@ header{
 }
 header #hero a{
     font-size: 2rem;
+    animation-name:check;
+    animation-duration: 30s;
+    animation-iteration-count:infinite;
+    
 }
 
 
 
 header div{
     margin:20px;
+    
+    
  
     
 
@@ -37,8 +43,15 @@ header div{
 header div a{
     text-decoration: none;
     color:white ;
+   
     border-bottom: 3px solid white ;
     
+}
+
+header .main a{
+    animation-name: link;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
     
 
@@ -60,6 +73,7 @@ section #test1
 {
     width:50%;
     
+    
         
 }
 
@@ -67,10 +81,14 @@ section #test1
 
 section #test1 span{
     color:#0096c7;
+    animation-name:check;
+    animation-duration: 30s;
+    animation-iteration-count:infinite;
 }
 
 section #test1 h1{
     padding:20px;
+    
     margin-top: 40px;
     text-shadow: 0 1px 0 #ccc,
                      0 2px 0 #c9c9c9,
@@ -99,6 +117,9 @@ section #test1 button{
     border-radius: 30px;
     padding: 10px;
     color:white;
+    animation-name: but;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
 }
 
 section #test2 {
@@ -131,6 +152,7 @@ section #test2 img{
     
     text-align: center;
     display: grid;
+    
     cursor: pointer;
     border-bottom:20px double green;
     margin-top: 20px;
@@ -145,6 +167,9 @@ container img{
 #container span{
     color:#0096c7;
     font-size: 2.5rem;
+    animation-name:check;
+    animation-duration: 30s;
+    animation-iteration-count:infinite;
     font-family: 'Poppins', sans-serif;
     text-shadow: 0 1px 0 #ccc,
                      0 2px 0 #c9c9c9,
@@ -171,6 +196,9 @@ container img{
 #skills h1{
     text-align: center;   
     color:#0096c7;
+    animation-name:check;
+    animation-duration: 30s;
+    animation-iteration-count:infinite;
     font-size: 2.5rem;
     font-family: 'Poppins', sans-serif;
     text-shadow: 0 1px 0 #ccc,
@@ -201,6 +229,9 @@ article{
 }
 article h1 span{
     color:#0096c7;
+    animation-name:check;
+    animation-duration: 30s;
+    animation-iteration-count:infinite;
     text-shadow: 0 1px 0 #ccc,
                      0 2px 0 #c9c9c9,
                      0 3px 0 #bbb,
@@ -234,8 +265,66 @@ article h1 span{
     
          font-size: 2.5rem;
     }
+}
 
-
+@keyframes check{
+    10%{
+        
+        color:#a8ff78;
+        
+    }
+    20%{
+        color: #E94057;
+    }
+    40%{
+        color:#f5af19;
      
-    
-  }
+    }
+    60%{
+        color:#c31432;
+    }
+    80%{
+        color:#1f4037;
+    }
+    90%{
+        color:#FF0099;
+    }
+}
+
+@keyframes but{
+    10%{
+        background-color:#799F0C;
+    }
+    40%{
+        background-color:#ec008c;
+    }
+    60%{
+        background-color: #f64f59;
+    }
+    80%{
+       background-color: #e65c00;
+    }
+    100%{
+        background-color: #16A085;
+    }
+}
+
+@keyframes link{
+    10%{
+      font-size:1.2rem;
+      color:#16A08;
+
+    }
+    30%{
+        font-size:1.5rem;
+        color:#ec008c;
+     }
+    60%{
+        font-size:2.3rem;
+        color:green;
+    }
+    90%{
+        font-size:2.5rem;
+        color:#ec008c;
+    }
+}
