@@ -312,7 +312,7 @@ article h1 span{
 @keyframes link{
     10%{
       font-size:1.2rem;
-      color:#16A08;
+      color:#16A085;
 
     }
     30%{
@@ -325,6 +325,6 @@ article h1 span{
     }
     90%{
         font-size:2.5rem;
-        color:#ec008c;
+        color:yellow;
     }
 }
