@@ -122,6 +122,11 @@ section #test1 button{
     animation-iteration-count: infinite;
 }
 
+section #test1 button a{
+    color:white;
+    text-decoration: none;
+}
+
 section #test2 {
     
     width:50%;
