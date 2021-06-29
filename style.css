@@ -316,20 +316,20 @@ article h1 span{
 
 @keyframes link{
     10%{
-      font-size:1.2rem;
+      
       color:#16A085;
 
     }
     30%{
-        font-size:1.5rem;
+        
         color:#ec008c;
      }
     60%{
-        font-size:2.3rem;
+        
         color:green;
     }
     90%{
-        font-size:2.5rem;
+        
         color:yellow;
     }
 }
